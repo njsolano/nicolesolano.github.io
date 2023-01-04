@@ -1,0 +1,236 @@
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+
+  .card-image {
+    object-fit: cover;
+    height: 250px;
+    background-position: center;
+  }
+
+}
+
+.form-text-area{
+  margin: 10px 0;
+  height: 130px !important;
+}
+
+
+.thank_you_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.thank_you{
+  width: 400px;
+  text-align: center;
+}
+
+.thank_you img{
+  width: 200px;
+}
+
+.thank_you h2{
+  font-size: 3rem;
+  margin-bottom: 7px!important;
+}
+
+
+.skills{
+  color: white;
+  font-weight: 500;
+  padding: 1px 5px;
+  margin-right: 2px;
+  border: 1px solid;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.card-title{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #6D5AE8;
+    height: 20%;
+    margin-bottom: 12px;
+}
+
+.w-100{
+  width:100%;
+}
+
+.gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+  }
+  .gallery:hover .gallery__image {
+    filter: grayscale(1);
+  }
+  .gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  .gallery__link {
+    margin: 2px;
+    overflow: hidden;
+  }
+  .gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+  }
+  .gallery__link:hover .gallery__caption {
+    opacity: 1;
+  }
+  .gallery__thumb {
+    position: relative;
+  }
+  .gallery__image {
+    display: block;
+    width: 100%;
+    transition: 0.1s;
+  }
+  .gallery__image:hover {
+    transform: scale(1.1);
+  }
+  .gallery__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.1s;
+  }
+
+  .border-none{
+    border: none;
+  }
+
+  .logo a img{
+    width: calc(20% + 1em);
+  }
+
+  #banner{
+    background-image: url(/images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+
+  
+
+  /* Animation----------------------------------------------------------------- */
+  a.special:not(.button):hover{
+    background: #6D5AE8;
+    border: none;
+    color: #24232a;
+
+  }
+
+  .profile-btn:hover {
+    border-bottom-color: transparent;
+    background-image: linear-gradient(to left, #E6A486, #6D5AE8);
+    color: #121418 !important;
+    padding: 2px 10px;
+    font-weight: bold;
+    
+  }
+
+
+  
+  /* @media screen and (max-width: 1280px) {
+  
+    .card-image {
+      object-fit: cover;
+      height: 250px;
+      background-position: center;
+    }
+  
+  } */
+  /* 
+  @media screen and (max-width: 980px) {
+  
+    body, input, select, textarea {
+      font-size: 12pt;
+    }
+  
+  }
+  
+  @media screen and (max-width: 736px) {
+  
+    body, input, select, textarea {
+      font-size: 12pt;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    body, input, select, textarea {
+      font-size: 12pt;
+    }
+  
+  } */
+  
+  /* .thank_you {
+    width: 400px !important;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+  
+  }
+  
+  
+  .thank_you img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .thank_you h2{
+    font-size: 2.375rem;
+    color: #454a57;
+    margin: 30px 0px 10px;
+  }
+  
+  .thank_you button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  } */
+  
+
+
+
+
+  
+
+  
