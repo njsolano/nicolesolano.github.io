@@ -15,8 +15,17 @@
     background-color: #24232a;
 }
 
-.project img{
+.f-pic-link{
+    border: 0;
     width: 45%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.project img{
+    width: 100%;
     object-fit: contain;
 }
 
@@ -77,23 +86,9 @@
 
 }
 
-/* @media screen and (max-width: 480px) {
-
-    .project{
-        padding: 0;
-    }
-
-    .project:nth-child(2){
-        flex-wrap: wrap-reverse;
-    }
-
-    .project img{
-        width: 100%;
-    }
-
-    .project-details{
-    width: 100%;
-    padding: 7%;
-    }
-
-} */
+.f-link:hover{
+    background: #6D5AE8;
+    border: none;
+    color: #24232a;
+    padding: 5px 0px;
+}
